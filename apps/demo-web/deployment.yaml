@@ -4,7 +4,7 @@ metadata:
   name: demo-web
   namespace: poc
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: demo-web
